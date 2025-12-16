@@ -1,0 +1,18 @@
+/* The 2nd row has slightly lower height than the top one, when reaching 736px in width the top should occupy two columns,*/
+/* max width: 704.233; max height: 674.190, W:347.571, H:674.190 */
+/* bottom W:347.571 H:537.969 */
+.main-container{
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.product-container{
+    background-color: red;
+    min-height: 20px;
+}
+
+.grid-col-span-2{
+    grid-column: span 2;
+}
