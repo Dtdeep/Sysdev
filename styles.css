@@ -14,3 +14,7 @@ body{
     align-items: center;
 }
 
+.main-container{
+    display: flex;
+    flex-flow: wrap;
+}
