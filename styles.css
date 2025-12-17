@@ -15,7 +15,16 @@ body{
 
 }
 
+body > p, body > h1 {
+    margin: 30px;
+}
+
 .main-container{
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.4705882353;
+    font-weight: 600;
+    letter-spacing: -.022em;
     display: flex;
     flex-flow: wrap;
     width: 1070px;
@@ -35,6 +44,8 @@ body{
     border-radius: 20px;
     padding: 26px 40px 26px 40px;
     text-align: center;
+    color: #1d1d1f;
+
 }
 .product-container.one{
     max-height: 675px;
@@ -45,4 +56,23 @@ body{
     max-width: 705px;
     width: 705px;
     height:675px;
+    padding: 0;
+}
+
+.product-container.one .image-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 409px;
+}
+.product-container-divider{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+/* actual content 34. 54 ang actual size sa overall */
+
+.product-colors-container{
+    height: 28px;
 }
