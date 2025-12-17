@@ -23,7 +23,7 @@ body > p, body > h1 {
     font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 1.4705882353;
-    font-weight: 600;
+    font-weight: 400;
     letter-spacing: -.022em;
     display: flex;
     flex-flow: wrap;
@@ -35,18 +35,24 @@ body > p, body > h1 {
 .product-container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     background-color: #f5f5f7;
     max-width: 348px;
     width: 348px;
     flex-grow: 1;
     border-radius: 20px;
-    padding: 26px 40px 26px 40px;
+    padding: 40px 40px 34px 40px;
     text-align: center;
     color: #1d1d1f;
 
 }
+
+.product-container > p{
+    margin-top: auto;
+
+}
+
 .product-container.one{
     max-height: 675px;
 }
@@ -56,14 +62,18 @@ body > p, body > h1 {
     max-width: 705px;
     width: 705px;
     height:675px;
-    padding: 0;
+    padding: 34px 0 34px 0;
 }
 
 .product-container.one .image-container{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 409px;
+    height: 467px;
+}
+
+.product-container.two .image-container{
+    height: 452px;
 }
 .product-container-divider{
     display: flex;
@@ -75,4 +85,5 @@ body > p, body > h1 {
 
 .product-colors-container{
     height: 28px;
+    background-color: red;
 }
