@@ -96,3 +96,13 @@ body > p, body > h1 {
     align-items: center;
     justify-content: center;
 }
+
+
+.product-container-divider.one{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 89.156px;
+    margin-bottom: 20px;
+
+}
