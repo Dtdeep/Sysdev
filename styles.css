@@ -84,6 +84,15 @@ body > p, body > h1 {
 /* actual content 34. 54 ang actual size sa overall */
 
 .product-colors-container{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
     height: 28px;
-    background-color: red;
+    gap: 10px;
+}
+.product-colors-container li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
