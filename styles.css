@@ -21,10 +21,6 @@ body > p, body > h1 {
 
 .main-container{
     font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    line-height: 1.4705882353;
-    font-weight: 400;
-    letter-spacing: -.022em;
     display: flex;
     flex-flow: wrap;
     width: 1070px;
@@ -50,6 +46,10 @@ body > p, body > h1 {
 
 .product-container > p{
     margin-top: auto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42859;
+    letter-spacing: -0.016em;
 
 }
 
@@ -105,4 +105,19 @@ body > p, body > h1 {
     height: 89.156px;
     margin-bottom: 20px;
 
+}
+
+.new-txt{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.3333733333;
+    letter-spacing: -.01em;
+    color: #b64400;
+}
+
+.product-name{
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -.016em;
+    line-height: 1.4285914286;
 }
