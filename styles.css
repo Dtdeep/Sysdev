@@ -1,6 +1,4 @@
-/* The 2nd row has slightly lower height than the top one, when reaching 736px in width the top should occupy two columns,*/
-/* max width: 704.233; max height: 674.190, W:347.571, H:674.190 */
-/* bottom W:347.571 H:537.969 */
+
 
 *{
     margin: 0;
@@ -61,7 +59,10 @@ body{
     padding: 40px 40px 34px 40px;
     text-align: center;
     color: #1d1d1f;
+}
 
+.product-container:hover{
+    cursor: pointer
 }
 
 .product-container > p{
@@ -100,7 +101,6 @@ body{
     gap: 10px;
     margin-bottom: 40px;
 }
-/* actual content 34. 54 ang actual size sa overall */
 
 .product-colors-container{
     display: flex;
