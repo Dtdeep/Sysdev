@@ -1,3 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    display: flex;
+    margin: 40px 0;
+
+}
+
+
 .second-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     width: 58.333%;
+}
+.photos-variation{
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+    justify-content: center;
+}
+
+.product-name{
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: .004em;
+    line-height: 1.125;
+    color: #1d1d1f;
+}
+
+.price-container{
+    margin-top: 14px;
+    padding-bottom: 10px;
+}
+
+.price-container *{
+    padding: 4px 0 5px 0;
+}
+
+.selection-input{
+    margin-top: 30px;
+}
+
+ .price-container p:last-child {
+    padding-top: 8px;
+}
+
+.circle{
+   
+}
+
+.product-colors-container{
+    padding-top: 18px;
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
+
+.color-selection-container{
+    margin-top: 30px;
+}
+
+
+.color-selection-container p{
+    height: 50px;
+}
+
+.details-bottom-half{
+    margin-top: 30px;
+    border-top: 1px solid rgb(210, 210, 215);
+    border-bottom: 1px solid rgb(210, 210, 215);
+}
+
+.details-bottom-half > :first-child {
+    margin-top: 20px;
+}
+
+.delivery-details-container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    gap: 16px;
+}
+
+.delivery-details-container > div {
+    display: flex;
+    gap: 15px;
+}
+
+.buttons-container{
+    display: flex;
+    flex-direction: column;
+    margin: 35px 0;
+    gap: 16px;
+}
+
+.buttons-container > button{
+    padding: 8px 15px;
+}
+.buttons-container > div{
+    padding-top: 8px;
+}
+
+.save-later{
+    display: flex;
+    margin-top: 8px;
 }
