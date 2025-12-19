@@ -5,6 +5,7 @@
 }
 
 body{
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -12,7 +13,10 @@ body{
 
 main{
     display: flex;
+    justify-content: center;
     margin: 40px 0;
+    gap: 81.656px;
+    flex-wrap: wrap;
 
 }
 
@@ -27,22 +31,39 @@ main{
 .photos-variation{
     display: flex;
     list-style-type: none;
-    gap: 16px;
+    gap: 23px;
     justify-content: center;
 }
 
 .product-name{
-    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
     font-size: 32px;
-    font-weight: 600;
+    font-weight: 550;
     letter-spacing: .004em;
     line-height: 1.125;
     color: #1d1d1f;
 }
 
+.text-blue {
+    color: #06c;
+ }
+
+.text-blue:hover {
+    text-decoration: underline;
+    cursor: pointer;
+ }
+ 
+
+
 .price-container{
     margin-top: 14px;
     padding-bottom: 10px;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    line-height: 1.4705882353;
+    color: #1d1d1f;
+
 }
 
 .price-container *{
@@ -50,7 +71,12 @@ main{
 }
 
 .selection-input{
+    width: 94%;
     margin-top: 30px;
+    border: solid 1px rgb(134, 134, 139);
+    padding: 10px 20px 0 15px;
+    border-radius: 12px;
+    height: 56px;
 }
 
  .price-container p:last-child {
@@ -66,6 +92,22 @@ main{
     display: flex;
     list-style-type: none;
     gap: 10px;
+}
+
+.product-colors-container li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.product-colors-container li img{
+    border-radius: 50%;
+        border: solid 2px white;
+}
+
+.selected-color{
+    border: solid 2px #0071e3;
 }
 
 .color-selection-container{
@@ -106,9 +148,6 @@ main{
     gap: 16px;
 }
 
-.buttons-container > button{
-    padding: 8px 15px;
-}
 .buttons-container > div{
     padding-top: 8px;
 }
@@ -116,4 +155,87 @@ main{
 .save-later{
     display: flex;
     margin-top: 8px;
+    align-items: center;
+    gap: 5px;
 }
+
+.select-input{
+    border: none;
+    background-color: white;
+    width: 100%;
+    margin-left: auto;
+    font-size: 17px;
+    line-height: 1.2353641176;
+    letter-spacing: -.022em;
+    font-weight: 400;
+
+}
+
+.apple-pay, .add-to-bag{
+    height: 36px;
+    padding: 8px 15px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.016em;
+    line-height: 1.28577;
+}
+
+.apple-pay{
+    background-color: black;
+    
+}
+
+.apple-pay, .add-to-bag, .select-input{
+    cursor: pointer;
+}
+
+.add-to-bag:hover, .apple-pay:hover{
+    opacity: 0.9;
+}
+.add-to-bag{
+    background-color: #0071e3;
+    width: 100%;
+
+}
+
+.first-container{
+    flex-basis: 33.3333333333%;
+    max-width: 329px;
+}
+
+.font-increase, .need-moment-container{
+    color: #1d1d1f;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    line-height: 1.4285914286;
+}
+
+.need-moment-container p:first-child {
+    font-weight: 600;
+}
+
+.color-selection-container p:first-child{
+    letter-spacing: -.022em;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.4705882353;
+    color: #1d1d1f;
+    min-height: 50px;
+}
+
+.selection-input p:first-child{
+    color: #6e6e73;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.3333733333;
+    letter-spacing: -.01em;
+}
+
+.selected-picture{
+    border-bottom: 2px solid #6e6e73;
+}
+
